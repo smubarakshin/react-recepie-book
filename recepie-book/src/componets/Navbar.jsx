@@ -1,10 +1,9 @@
 function Navbar (){
     return(
     <div className="topnav">
-  <a className="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <img className ="logo" src="./src/assets/logo_book.png" alt="find image"></img>
+  <a className="active" href="#home">Recepie Book</a>
+ 
 </div>
 
     )
