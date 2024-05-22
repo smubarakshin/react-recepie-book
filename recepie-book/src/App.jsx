@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './componets/Navbar'
+import Sidebar from './componets/Sidebar'
 
 function App() {
   
@@ -8,7 +9,7 @@ function App() {
     <>
     <Navbar></Navbar>
     {/* <Footer></Footer> */}
-    {/* <SideBar></SideBar> */}
+    <Sidebar></Sidebar> 
 
  
     </>
