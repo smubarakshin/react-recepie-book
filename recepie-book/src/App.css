@@ -21,8 +21,20 @@
   position: fixed;
   flex-grow: 1;
 
+}
 
 
 
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
