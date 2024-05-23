@@ -1,72 +1,67 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  font-family: "Freeman", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* CSS Styles for Footer */
+
+.footer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+  border: 1px solid black;
+  height: 5rem;
+  width: 100vw;
+  position: fixed;
+  flex-grow: 1;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Recepie Card Styles */
+
+.recepie-container{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
 }
 
-.card {
-  padding: 2em;
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: lightcyan;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
 }
 
-.read-the-docs {
-  color: #888;
-}
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
+/* End of recepie styles */
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .sidebar {
@@ -75,6 +70,7 @@
   left: 0;
   width: 180px;
   background-color: #f0f0f0;
+
   padding: 10px;
   display: flex;
   flex-direction: column;

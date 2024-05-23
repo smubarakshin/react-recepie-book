@@ -1,11 +1,15 @@
-function Navbar (){
-    return(
+function Navbar() {
+  return (
     <div className="topnav">
-  <img className ="logo" src="./src/assets/logo_book.png" alt="find image"></img>
-  <a className="active" href="#home">Recepie Book</a>
- 
-</div>
-
-    )
+      <img
+        className="logo"
+        src="./src/assets/logo_book.png"
+        alt="find image"
+      ></img>
+      <a className="active" href="#home">
+        Recepie Book
+      </a>
+    </div>
+  );
 }
-export default Navbar
+export default Navbar;
