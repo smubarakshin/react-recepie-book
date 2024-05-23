@@ -1,16 +1,19 @@
 
 import './App.css'
 import Navbar from './componets/Navbar'
+import Footer from './componets/Footer'
 
 function App() {
   
   return (
     <>
-    <Navbar></Navbar>
-    {/* <Footer></Footer> */}
-    {/* <SideBar></SideBar> */}
+      <Navbar></Navbar>
+      {/* <SideBar></SideBar> */}
+      
+      
+      {/* <Footer></Footer> */}
 
- 
+      <Footer />
     </>
   )
 }
