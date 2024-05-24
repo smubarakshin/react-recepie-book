@@ -1,13 +1,13 @@
-import React from "react";
-import recepieBook from "../../data/data.json";
+
+
 import Recepie from "./Recepie";
 
-function RecepieList() {
+function RecepieList({recepieBook, setRecepieBook}) {
   return (
     <div className="container">
       <div className="recepie-list">
         {recepieBook.map((recepie) => {
-          return <Recepie recepie={recepie} />;
+          return <Recepie key={recepie.id} recepie={recepie} />;
         })}
       </div>
     </div>

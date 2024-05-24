@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function Recepie({ recepie }) {
   return (
@@ -10,6 +10,7 @@ export default function Recepie({ recepie }) {
         <h2 className="item">Dish name: {recepie.name}</h2>
         <h2 className="item">Calorie Content: {recepie.calories}</h2>
         <h2 className="item">Servings per person: {recepie.servings}</h2>
+        <button>edit recepie</button>
         </div>
       </div>
   );
